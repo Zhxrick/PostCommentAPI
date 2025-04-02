@@ -1,0 +1,21 @@
+﻿# Ignorar la carpeta .vs, que es específica de Visual Studio
+.vs/
+
+# Ignorar la carpeta bin y obj, que contienen archivos generados por el compilador
+bin/
+obj/
+
+# Archivos de configuración de usuario que no deben subirse
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Archivos de la carpeta de configuración de Visual Studio Code
+.vscode/
+
+# Archivos de entorno
+.env
+
+# Ignorar paquetes de NuGet
+*.nupkg
